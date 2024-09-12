@@ -23,16 +23,11 @@
 #task-done-button {
   margin-top: -4px;
   margin-right: 15px;
-/*  margin-left: 43%;*/
-/*  margin-right: -20%;*/
 }
 
 #task-edit-button {
   margin-right: 5px;
   margin-top: -7px;
-/*  margin-left: 30%;*/
-/*  margin-right: 10px;*/
-/*  margin-right: -40%;*/
 }
 
 #task-done-button:hover, #task-edit-button:hover  {
@@ -89,6 +84,7 @@
   position: relative;
   display: inline-block;
 }
+
 .input-file span {
   position: relative;
   display: inline-block;
@@ -109,6 +105,7 @@
   margin: 0;
   transition: background-color 0.2s;
 }
+
 .input-file input[type=file] {
   position: absolute;
   z-index: -1;
@@ -127,6 +124,7 @@
 .input-file:hover span {
   background-color: #59be6e;
 }
+
 .input-file:active span {
   background-color: #2E703A;
 }
